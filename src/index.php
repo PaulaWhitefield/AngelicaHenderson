@@ -1,7 +1,12 @@
----
-layout: "base.njk"
-backgroundImage: /assets/images/backgrounds/rows-of-small-candles.jpg
----
+<?php
+
+$current_page = "home";
+
+$background_image = "/assets/images/backgrounds/rows-of-small-candles.jpg";
+
+$page_content = function()
+{
+?>
 
 <p class="w3-large"><b>Hello, I'm Angelica.</b></p>
 <p>My friends call me Angel. Perhaps because I am like an Angel to them when I make them feel better about a situation, or give them a really good massage.</p>
@@ -21,3 +26,8 @@ backgroundImage: /assets/images/backgrounds/rows-of-small-candles.jpg
         <p><a href="https://www.littleinnocentangel.ict.rocks" target="_blank" class="w3-button w3-block w3-deep-purple w3-hover-pink w3-round-large">Find Out More</a></p>
     </div>
 </div>
+
+<?php
+};
+
+include __DIR__ . DIRECTORY_SEPARATOR . "_includes" . DIRECTORY_SEPARATOR . "base.php";
