@@ -1,12 +1,8 @@
-<?php
-
-$current_page = "home";
-
-$background_image = "/assets/images/backgrounds/rows-of-small-candles.jpg";
-
-$page_content = function()
-{
-?>
+---
+current_page: home
+background_image: /assets/images/backgrounds/rows-of-small-candles.jpg
+layout: src/_includes/base.php
+---
 
 <p class="w3-large"><b>Hello, I'm Angelica.</b></p>
 <p>My friends call me Angel. Perhaps because I am like an Angel to them when I make them feel better about a situation, or give them a really good massage.</p>
@@ -27,7 +23,3 @@ $page_content = function()
     </div>
 </div>
 
-<?php
-};
-
-include __DIR__ . DIRECTORY_SEPARATOR . "_includes" . DIRECTORY_SEPARATOR . "base.php";
