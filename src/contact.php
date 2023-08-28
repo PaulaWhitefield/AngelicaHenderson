@@ -6,7 +6,7 @@ layout: src/_includes/base.php
 ---
 
 <p class="w3-large">I love to read your messages, so feel free to send in an email anytime.</p>
-<p id="email_address"><span class="w3-deep-purple w3-padding w3-round-large">angelica [dot] henderson [at] themailbox [dot] io</span></p>
+<p id="email_address"><span class="w3-deep-purple w3-padding w3-round-large">angelica [dot] henderson [at] mailbox [dot] ict [dot] rocks</span></p>
 <script type="text/javascript">
     var email_address = document.getElementById( "email_address" );
     var email_address_span = email_address.getElementsByTagName( "span" )[0];
