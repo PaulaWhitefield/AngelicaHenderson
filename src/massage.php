@@ -1,7 +1,7 @@
 ---
 current_page: massage
 page_title: Massage
-background_image: /assets/images/backgrounds/pouring-oil-on-hand.jpg
+background_image: /pouring-oil-on-hand.jpg
 layout: src/_includes/base.php
 ---
 

@@ -1,7 +1,7 @@
 ---
 current_page: contact
 page_title: Contact
-background_image: /assets/images/backgrounds/laptop-almost-closed-in-the-dark.jpg
+background_image: /laptop-almost-closed-in-the-dark.jpg
 layout: src/_includes/base.php
 ---
 
