@@ -10,8 +10,8 @@ images-url: https://images.storage.ict.rocks
         
         <title><?php if( isset( $metadata['page_title'] ) && $metadata['page_title'] ) echo $metadata['page_title'] . " - "; ?>Angelica Henderson</title>
         
-        <link rel="stylesheet" type="text/css" href="https://w3css.staticly.ict.rocks/4.15/w3.css">
-        <link rel="stylesheet" type="text/css" href="https://webfonts.staticly.ict.rocks/nunito/nunito.css">
+        <link rel="stylesheet" type="text/css" href="https://staticly.cc/w3css/4.15/w3.css">
+        <link rel="stylesheet" type="text/css" href="https://staticly.cc/webfonts/nunito/nunito.css">
     </head>
     
     <body class="font-nunito<?php if( isset( $metadata['body_class'] ) && $metadata['body_class'] ) echo ' ' . $metadata['body_class']; ?>">
