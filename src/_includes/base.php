@@ -1,7 +1,7 @@
 ---
 content_placeholder: {{ content }}
-storage-domain: staticly.cc
-images-url: https://images.staticly.cc
+storage-domain: storage.dah5.me.uk
+images-url: https://images.storage.dah5.me.uk
 ---
 <!DOCTYPE html>
 <html lang="en" style="min-height: 100vh;<?php if( isset( $metadata['background_image'] ) && $metadata['background_image'] ): ?> background-image: url('<?php echo $metadata['images-url'] . '/backgrounds' . $metadata['background_image']; ?>'); background-size: cover; background-repeat: no-repeat;<?php endif; ?>">
