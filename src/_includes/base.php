@@ -1,6 +1,7 @@
 ---
 content_placeholder: {{ content }}
-images-url: https://images.storage.ict.rocks
+storage-domain: staticly.cc
+images-url: https://images.staticly.cc
 ---
 <!DOCTYPE html>
 <html lang="en" style="min-height: 100vh;<?php if( isset( $metadata['background_image'] ) && $metadata['background_image'] ): ?> background-image: url('<?php echo $metadata['images-url'] . '/backgrounds' . $metadata['background_image']; ?>'); background-size: cover; background-repeat: no-repeat;<?php endif; ?>">
@@ -10,8 +11,8 @@ images-url: https://images.storage.ict.rocks
         
         <title><?php if( isset( $metadata['page_title'] ) && $metadata['page_title'] ) echo $metadata['page_title'] . " - "; ?>Angelica Henderson</title>
         
-        <link rel="stylesheet" type="text/css" href="https://staticly.cc/w3css/4.15/w3.css">
-        <link rel="stylesheet" type="text/css" href="https://staticly.cc/webfonts/nunito/nunito.css">
+        <link rel="stylesheet" type="text/css" href="https://w3css.--- metadata.storage-domain ---/4.15/w3.css">
+        <link rel="stylesheet" type="text/css" href="https://webfonts.--- metadata.storage-domain ---/nunito/nunito.css">
     </head>
     
     <body class="font-nunito<?php if( isset( $metadata['body_class'] ) && $metadata['body_class'] ) echo ' ' . $metadata['body_class']; ?>">
