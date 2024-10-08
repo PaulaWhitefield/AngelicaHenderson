@@ -29,7 +29,7 @@ images-url: /assets/images
                 {{ content }}
             </div>
 
-            <p class="w3-center w3-text-white w3-small">Copyright &copy; Angelica Henderson.<br>Site by <a href="https://paulawhitefield.indieweb.io" target="_blank">Paula Whitefield</a>.</p>
+            <p class="w3-center w3-text-white w3-small">Copyright &copy; Angelica Henderson.<br>Site by <a href="https://www.paulawhitefield.com" target="_blank">Paula Whitefield</a>.</p>
         </div>
     </body>
 </html>
