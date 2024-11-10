@@ -19,7 +19,7 @@ layout: src/_includes/base.php
     <div class="w3-col m5 w3-center w3-black w3-padding w3-round-large">
         <p class="w3-text-light-gray w3-display-container w3-round-large" style="background-color: #111; aspect-ratio: 640 / 427;"><b class="w3-display-middle">Little Innocent Angel</b></p>
         <p class="w3-large"><b>Blog</b></p>
-        <p><a href="https://littleinnocentangel.weburl.net" target="_blank" class="w3-button w3-block w3-deep-purple w3-hover-pink w3-round-large">Find Out More</a></p>
+        <p><a href="https://weburl.net/littleinnocentangel" target="_blank" class="w3-button w3-block w3-deep-purple w3-hover-pink w3-round-large">Find Out More</a></p>
     </div>
 </div>
 
